@@ -1,7 +1,7 @@
 from ultralytics import YOLO
 
 # Build a YOLOv9c model from pretrained weight
-model = YOLO('yolov8s.pt')
+model = YOLO('/home/justeengg/app/runs/detect/train/weights/best.pt')
 
 # Display model information (optional)
 model.info()
