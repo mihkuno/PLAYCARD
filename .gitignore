@@ -1,3 +1,6 @@
+classify/exported_model/checkpoint/*
+checkpoint/
+dataset/
 datasets/
 venv/
 yolov*
